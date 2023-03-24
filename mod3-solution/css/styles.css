@@ -1,0 +1,113 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color:pink;
+  font-family: 'Times Roman', sans-serif;
+  height:1000px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom:25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: Black;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin:10px 15px 10px 0;
+ /* margin-top: 0;
+  margin-bottom: 10px;
+  margin-left:0;*/
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* food llc */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+#nav-list {
+  background-color:green;
+  text-align:center;
+  font-size:2.0em;
+  margin-top:5px;
+  margin-bottom:0px;
+ 
+
+}
+
+ 
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 10px;
+}
+#lgsection {
+ background-color:blue;
+ margin:5px 5px 5px 5px;
+ word-wrap:break-word;
+}
+ #mdsection {
+ background-color:blue;
+ margin:15px 15px 15px 15px;
+ word-wrap:break-word;
+}
+#smsection {
+ background-color:blue;
+ padding-top:25px;
+ padding-bottom:25px;
+ Padding-left:50px;
+ Padding-right:50px;
+ margin:30px 30px 30px 30px;
+ word-wrap:break-word;
+}
+#xssection {
+ background-color:blue;
+ padding-top:25px;
+ padding-bottom:25px;
+ Padding-left:50px;
+ Padding-right:50px;
+ margin:100px 30px 100px 30px;
+ word-wrap:break-word;
+}
+
+  #collapsable-nav  { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    padding=0;
+    border:2px;
+    width:100%;
+  }
+ /* #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }*/
+
+
+  /* End Header */
